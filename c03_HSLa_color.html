@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSL&alpha; Color</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="c01_site_organization.html">Website Organization</a></li>
+            <li><a href="c02_design_standards.html">Design Standards</a></li>
+            <li><a href="c03_HSLa_color.html">HSL&alpha; Colors</a></li>
+            <li><a href="c04_navigation_design.html">Navigation Design</a></li>
+            <li><a href="c05_wireframing.html">Wireframing</a></li>
+            <li><a href="c06_responsive_design.html">Responsive Design</a></li>
+            <li><a href="c07_mobile_first.html">Mobile First</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2><abbr title="Hue, Saturation, Luminance, Alpha">HSL&alpha;</abbr> is the Best Way to Control Website Colors
+        </h2>
+
+        <p>Although hexadecimal remains the most common way to code colors, it is an old method that should be
+            discontinued. You will not be permitted to use hexadecimal colors in this class, so do not spend time
+            learning
+            how. Instead, I will require you to choose between two different methods:</p>
+
+        <ul>
+            <li>HTML color names</li>
+            <li>HSL&alpha; color codes</li>
+        </ul>
+
+        <p>Of the two methods, HSL&alpha; is far superior in general, but you should feel free to use plain color names for the sake of being quick, especially when coding deliberate Crayola-type colors like black and white. You will also see some developers using RGB&alpha; codes. Those work as well as HSL&alpha; but they were designed around the way machines process color rather than around the way that human brains process color. HSL&alpha; is designed to be precise enough for machines but written in a way that is human-readable if you learn the color wheel and remember that there are 360° in a circle.</p>
+        <h3>Using HSL&alpha;: Hue</h3>
+
+        <p>These are the hue values for the basic rainbow hues:</p>
+
+            <ol type="a">
+                <li><code>&nbsp;&nbsp;0</code> &rarr; red</li>
+                <li><code>&nbsp;30</code> &rarr; orange</li>
+                <li><code>&nbsp;60</code> &rarr; yellow</li>
+                <li><code>120</code> &rarr; green</li>
+                <li><code>240</code> &rarr; blue</li>
+                <li><code>270</code> &rarr; purple</li>
+            </ol>
+
+        <h3>Using HSL&alpha;: Saturation</h3>
+
+        <p><strong>Saturation</strong> is a percentage showing how much of the color you want to add. 100% saturation is a pure, jewel-tone version of the color. 0% saturation would have no color present at all, and this is the default if you are using HSL&alpha; to code a shade of gray. Your default when using color, however, should be to start at 100% saturation and then tone it down to reach the level of color intensity you desire. Note that low saturation is analogous to low contrast, so be cautious if you need to violate that particular design principle.</p>
+        <h3>Using HSL&alpha;: Luminance</h3>
+
+        <p><strong>Luminance</strong> is a percentage showing how much light you want to shine through your color. You should default to 50% luminance because 0% would turn any color to black and 100% would turn any color to white; 50% luminance is just the pure hue and saturation you chose, without washing it out or shading it down.</p>
+        <h3>Using HSL&alpha;: Alpha</h3>
+
+        <p><strong>Alpha</strong> (<code>&amp;alpha;</code>) is a measure of opacity in an image or a color. Although it might make more sense to set it as a percentage the same way you would set saturation or luminance, the standard is to set it as a value between 0.00 and 1, where 0 would be completely transparent and 1 would be completely opaque. You can achieve wonderful subtleties with your color palette when you layer elements and tweak alpha values, and I encourage you to play around with this part of the HSL&alpha; code.</p>
+
+
+
+    </main>
+    <aside>
+        <h2>Using <a href="https://color.adobe.com/create/color-wheel">Adobe Color</a> to Select a Color Palette</h2>
+
+        <p>I encourage you to go over to Adobe Color and use their online tools to refine your Website aesthetics. Once we get into using Cascading Style Sheets (which is our next unit) you'll be able to start implementing all of these splashy colors you've been exploring.</p>
+
+        <p>These are the common color schemes you can use to guide your selections:</p>
+        <ul>
+            <li><strong>monochromatic</strong> - pick one color as an accent and leave everything else black and white</li>
+            <li><strong>analogous</strong> - adjacent colors on the color wheel - mimic color schemes found in nature</li>
+            <li><strong>complimentary</strong> - opposite colors on the color wheel - bad for text</li>
+            <li><strong>split complimentary</strong> - adds one adjacent color to soften the effect of the complimentary scheme</li>
+            <li><strong>triadic</strong> - 3 colors evenly spaced around the color wheel - good for vibrancy</li>
+            <li><strong>tetradic</strong> - 4 colors comprised of 2 complimentary pairs</li>
+        </ul>
+    </aside>
+    <footer>
+        &copy;2025 Matthew Gentle
+    </footer>
+</body>
+
+</html>
